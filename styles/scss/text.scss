@@ -19,10 +19,13 @@ h1, h2, h3, h4, h5 {
 }
 
 div.page {
+
+  padding-bottom: 2em;
+
   a {
     color: $mainColor;
   }
-  
+
   .aspectratio {
     position: relative;
     width: 100%;
