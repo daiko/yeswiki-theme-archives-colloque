@@ -16,6 +16,7 @@
     margin: 1em;
     padding: 1em;
     max-width: calc(#{$seminarPosterWidth} + 2em);
+    transition: all .5s;
 
 
     article {
@@ -30,7 +31,7 @@
       }
 
       h2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
         display: block;
         flex-grow: 1;
         color: $textColor;
@@ -54,5 +55,7 @@
 
   a:hover {
     text-decoration: none;
+    transform: scale(1.1);
+    transition: all .5s;
   }
 }
