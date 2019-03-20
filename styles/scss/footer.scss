@@ -1,0 +1,17 @@
+footer {
+  text-align: center;
+  background: $mainColor;
+  padding: 1em;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  img {
+    padding: 1em;
+    max-height: 8em;
+    max-width: 10em
+  }
+}

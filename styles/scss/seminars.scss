@@ -1,0 +1,58 @@
+#seminars {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  max-width: 80em;
+
+  margin: 0 auto 4em auto;
+
+  a {
+  	text-align: center;
+    background: white;
+  	border-radius:10px;
+  	box-shadow: 5px 5px 10px #999;
+    margin: 1em;
+    padding: 1em;
+    max-width: calc(#{$seminarPosterWidth} + 2em);
+
+
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+
+      h1 {
+        font-size: 1.8em;
+        color: $mainColor;
+      }
+
+      h2 {
+        font-size: 1.4em;
+        display: block;
+        flex-grow: 1;
+        color: $textColor;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+  }
+
+  a:first-of-type {
+    transform: scale(1.05);
+    background: $mainColor;
+    h1 {
+      color: white;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}

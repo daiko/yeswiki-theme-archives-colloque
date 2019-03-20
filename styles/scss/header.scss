@@ -1,0 +1,27 @@
+header {
+  padding: 1em;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+  #logo {
+    padding:1em;
+    height: $headerHeight;
+    width: auto;
+  }
+
+  em {
+    color: $mainColor;
+    text-transform: none;
+  }
+}
+
+@media(max-width: 760px) {
+  header {
+    flex-flow: column;
+  }
+  h1 {
+    text-align: center;
+  }
+}

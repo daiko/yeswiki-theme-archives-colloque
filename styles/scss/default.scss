@@ -1,0 +1,32 @@
+@import 'vars';
+@import 'text';
+@import 'header';
+@import 'footer';
+@import 'seminars';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #EEE;
+}
+
+header, footer {
+  min-height: 12em;
+  width: 100%;
+}
+
+#main {
+  max-width: 45em;
+  flex-grow: 2;
+}
+
+#main.pagePrincipale {
+  max-width: 100%;
+}

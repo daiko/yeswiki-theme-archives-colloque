@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="{{configuration param="charset"}}">
+<meta name="keywords" content="{{configuration param="meta_keywords"}}">
+<meta name="description" content="{{configuration param="meta_description"}}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{configuration param="wakka_name"}} : {{currentpage}}</title>
+{{linkstyle}}
+{{linkrss}}
+
+<body>
+  <header>
+    <a href="./">
+      <img id="logo" src="themes/archives-colloque/images/logoColloqueSupAgroFlorac.svg" />
+    </a>
+    <h1>
+      Rencontres entre <em>enseignants</em>, <br />
+      <em>acteurs de terrain</em> et <br />
+      <em>chercheurs</em>
+    </h1>
+  </header>
+
+  <section id="main" role="main" {{doubleclic}}>
+    {WIKINI_PAGE}
+  </section>
+
+  <footer>
+    <a href="https://supagro.fr">
+      <img src="themes/archives-colloque/images/logoSupAgro.png" alt="Logo ministère agriculture" />
+    </a>
+    <a href="https://agriculture.gouv.fr">
+      <img src="themes/archives-colloque/images/logoMinistereAgriculture.png" alt="Logo ministère agriculture" />
+    </a>
+  </footer>
+  {{linkjavascript}}
+</body>
